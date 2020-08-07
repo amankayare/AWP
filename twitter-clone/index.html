@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<!-- marqueee
+marquee
+CSS 3D transforms
+Cube
+parallax effect
+From Elizabeth George to Everyone:  06:35 PM
+li*5>p.item*3>lorem3
+
+em
+em	 = Relative to the font-size of the element (2em means 2 times the size of the current font)	
+ex	 = Relative to the x-height of the current font (rarely used)	
+ch	 = Relative to the width of the "0" (zero)	
+rem	 = Relative to font-size of the root element	
+vw	 = Relative to 1% of the width of the viewport*	
+vh	 = Relative to 1% of the height of the viewport*	
+vmin = Relative to 1% of viewport's* smaller dimension	
+vmax = Relative to 1% of viewport's* larger dimension	
+% = 	Relative to the parent element
+
+ -->
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Twitter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="left">
+            <div class="left-top">
+                <div class="logo-col">
+                    <div> <a href="#"><img class="nav-logo" src="logo.PNG" alt=""></a></div><br>
+                    <div> <a href="#"><img class="nav-logo " src="home.PNG" alt=""></a></div><br>
+                    <div><a href=""><img class="nav-logo" src="explore.PNG" alt=""></a></div> <br>
+                    <div><a href=""><img class="nav-logo" src="notification.PNG" alt=""></a></div> <br>
+                    <div><a href=""><img class="nav-logo" src="message.PNG" alt=""></a></div> <br>
+                    <div><a href=""><img class="nav-logo" src="bookmarks.PNG" alt=""></a></div> <br>
+                    <div><a href=""><img class="nav-logo" src="lists.PNG" alt=""></a></div><br>
+                    <div><a href=""><img class="nav-logo" src="profile.PNG" alt=""></a> </div> <br>
+                    <div><a href=""><img class="nav-logo" src="more.PNG" alt=""></a></div> <br>
+                </div>
+                <div class="logo-text">
+                    <div class="list"></div>
+                    <div class="list active">Home</div>
+                    <div class="list">Explore</div>
+                    <div class="list">Notifications</div>
+                    <div class="list">Messages</div>
+                    <div class="list">BookMarks</div>
+                    <div class="list">Lists</div>
+                    <div class="list">Profiles</div>
+                    <div class="list">More</div>
+                </div>
+            </div>
+            <div class="left-bottom">
+                <button class="tweet-btn">Tweet</button>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="header"><span>Home</span><span><img src="star.PNG" alt=""></span></div>
+            <div class="post">
+                <div class="post-part">
+                    <div><img style="width:50px" class="dp" src="img_avatar.png" alt=""></div>
+                    <input type="text" class="what" placeholder="What's Happening?">
+                </div>
+
+            </div>
+            <div class="post-icon">
+                <div class="post-icon-group">
+                    <span><a href=""><img src="icon1.PNG" alt=""></a></span>
+                    <span><a href=""><img src="icon2.PNG" alt=""></a></span>
+                    <span><a href=""><img src="icon3.PNG" alt=""></a></span>
+                    <span><a href=""><img src="icon4.PNG" alt=""></a></span>
+                    <span><a href=""><img src="icon5.PNG" alt=""></a></span>
+                </div>
+                <button class="post-btn">TWEET</button>
+
+
+            </div>
+            <hr>
+            <div class="wall">
+
+                <div class="wall-post">
+                    <div class="post-logo"><img style="width:50px" class="dp" src="img_avatar.png" alt=""></div>
+                    <div class="main-post">
+                        Aman Kayare<img src="tick.PNG" alt="">
+                        <span class="thought id">@ak_74</span><img class="drop-down" src="drop-down.PNG" alt=""><br>
+                        <span class="thought">Very interesting discussion on Flutter and Hooks</span>
+                        <div class="post-container">
+                            <img class="post-img" width="99%" src="post-img.png" alt="">
+                            <div class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ea
+                                dolor explicabo quasi libero, eligendi delectus quidem nihil quae, nulla soluta esse et
+                                dignissimos aspernatur.</div>
+                        </div>
+                        <div class="post-reactions"><span><a><img src="comment.PNG" alt=""></a></span>
+                            <div><a href=""><img src="retweet.PNG" alt=""></a></div>
+                            <div><a href=""><img src="likes.PNG" alt=""></a></div>
+                            <div><a href=""><img src="share.PNG" alt=""></a></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="search-container"><input class="search" placeholder="Search Twitter" type="text"></div>
+            <h2 class="font">Top Trends</h2>
+
+            <div class="trends">
+                <div class="trend">#COVID-19</div>
+                <div class="trend">#Ram Mandir</div>
+                <div class="trend">#Burnol</div>
+                <div class="trend">#Sushant Sing Rajput</div>
+            </div>
+            <h2 class="font">Who to follow</h2>
+
+            <div class="who-follow">
+                <div class="who-profile"><span><img style="width:25px" class="dp" src="img_avatar.png" alt="">
+                    </span><span class="name">Abhijeet Sir</span>
+                </div>
+                <div class="who-profile"><span><img style="width:25px" class="dp" src="img_avatar.png" alt="">
+                    </span><span class="name">Soni-G</span>
+                </div>
+                <div class="who-profile"><span><img style="width:25px" class="dp" src="img_avatar.png" alt="">
+                    </span><span class="name">Gupta-G</span>
+                </div>
+                <div class="who-profile"><span><img style="width:25px" class="dp" src="img_avatar.png" alt="">
+                    </span><span class="name">Parle-G</span>
+                </div>
+            </div>
+            <div class="terms-condition">
+                <p>Terms
+                    Privacy policy
+                    Cookies
+                    Ads info
+                    More
+                    © 2020 Twitter, Inc.</p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>

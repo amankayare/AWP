@@ -1,0 +1,14 @@
+body {
+    background: black;
+    cursor: url("cursor.png");
+
+}
+
+#name {
+    color: white;
+    font-weight: 800px;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    padding-left: 20.5px;
+}
