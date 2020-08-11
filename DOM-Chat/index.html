@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WHATSAPP</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="chat-box">
+            <div class="header">
+                <div class="left-header">
+                    <i class="fa fa-arrow-left arrow"></i>
+                    <img src="dp.jpg" id="dp" alt="">
+                    <h3 style="margin-left: 5px;
+                    ">Aman Kayare</h3>
+                </div>
+                <div class="right-header">
+                    <span class="i"><i class="fa  fa-video-camera" aria-hidden="true"></i></span>
+                    <span class="i"><i class="fa  fa-phone"></i></span>
+                    <span class="i"><i class="fa  fa-ellipsis-v"></i></span>
+                </div>
+            </div>
+            <div class="container">
+                <button onclick="likes();" id="like"><i id="count" class="fa fa-heart"
+                        style="color: red; font-size: 25px;"></i> </button>
+                <div class="message-left">
+                    <p></p>
+                    <button class="delete" onclick="del(this);">&times;</button>
+                </div>
+                <div class="message-right">
+                    <p></p>
+                    <button class="delete">&times;</button>
+
+                </div>
+
+            </div>
+            <div class="type">
+                <input type="text" id="type" placeholder="Type a message">
+                <button id="send" onclick="send();"><i class="fa fa-send-o" style="font-size:24px"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

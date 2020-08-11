@@ -5,13 +5,13 @@ body {
 
 
 .main {
-    height: 2vh;
+    height: 270vh;
     display: flex;
     justify-content: center;
 }
 
 .card {
-    height: 200vh;
+    height: 242vh;
     width: 70%;
     margin-top: 80px;
     display: flex;
@@ -73,19 +73,22 @@ body {
 
 .content {
     display: flex;
+    height: 200vh;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .left-bar {
 
     flex: 2;
-    height: 100vh;
+    height: 138vh;
     display: flex;
     flex-direction: column;
 }
 
 .right-side {
     flex: 4;
-    height: 100vh;
+    height: 138vh;
     display: flex;
     flex-direction: column;
 }
@@ -95,7 +98,6 @@ body {
     flex: 1;
     border-bottom: solid rgba(182, 162, 162, 0.37) 2px;
     border-right: solid rgba(182, 162, 162, 0.37) 2px;
-
     padding: 16px;
 
 
@@ -114,7 +116,30 @@ body {
     flex: 1;
     padding: 15px;
 }
-.blank{
+
+.blank {
     border-bottom: solid rgba(182, 162, 162, 0.37) 0.5px;
-height: 25vh;
+    height: 50vh;
+    margin-top: 24px;
+
+}
+
+.footer {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.foot-left {
+    height: 25vh;
+    background: gold;
+    flex: 1;
+
+}
+
+.foot-right {
+    background-color: green;
+    height: 25vh;
+    flex: 1;
 }

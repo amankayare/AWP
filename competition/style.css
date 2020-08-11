@@ -1,0 +1,137 @@
+html,
+body {
+    margin: 0;
+}
+
+.main {
+    height: 99vh;
+    display: flex;
+    width: 99.5%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('back.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    padding: 40px;
+    background-color: white;
+    width: 70%;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+
+}
+
+#password {
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    height: 5vh;
+    border-radius: 8px;
+    width: 90%;
+
+}
+
+#username {
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    height: 5vh;
+    border-radius: 8px;
+    width: 90%;
+}
+
+button {
+    width: 10vh;
+    background-color: #2F2F2F;
+    border-radius: 15px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    border: none;
+    font-weight: bold;
+    padding: 7px;
+    margin-top: 10px;
+
+}
+
+.right-box {
+    height: 90vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    border-bottom-right-radius: 15px;
+
+}
+
+.left-box {
+    height: 90vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+
+}
+
+.image {
+    flex: 8;
+    background-image: url('bck.jpg');
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+
+.footer {
+    flex: 1;
+    height: 3vh;
+    background: #2F2F2F;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.header {
+    flex: 1;
+    background: #2F2F2F;
+    opacity: 2px;
+    height: 10vh;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+
+
+}
+
+
+
+.icon {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.container {
+    flex: 8;
+    background-color: #FCFCFC;
+
+}
+
+.social {
+    display: flex;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Image-movement</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .container {
+            height: 95vh;
+            background-image: url('https://picsum.photos/1200/900');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-around;
+
+        }
+
+        .row-upper {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .row-lower {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .top-left {
+            border-radius: 50%;
+            height: 30vh;
+            width: 25vw;
+            background-image: url('https://picsum.photos/500/300');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 200%;
+        }
+
+        .top-right {
+            height: 30vh;
+            width: 25vw;
+            border-radius: 15%;
+
+            background-image: url('https://picsum.photos/500/300');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 200%;
+
+        }
+
+        .bottom-left {
+            height: 30vh;
+            width: 25vw;
+            background-image: url('https://picsum.photos/500/300');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-left-radius: 15%;
+            border-bottom-right-radius: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 200%;
+        }
+
+        .bottom-right {
+            height: 30vh;
+            width: 25vw;
+            background-image: url('https://picsum.photos/500/300');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 200%;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-upper">
+            <div class="top-left">TOP LEFT</div>
+            <div class="top-right">TOP RIGHT</div>
+        </div>
+
+        <div class="row-lower">
+            <div class="bottom-left">BOTTOM-LEFT</div>
+            <div class="bottom-right">BOTTOM-RIGHT</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
