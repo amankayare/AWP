@@ -1,0 +1,19 @@
+.head {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lower {
+
+    height: 100%;
+}
+
+.box {
+    height: 25vh;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#first-box{
+    display: none;
+
+}
