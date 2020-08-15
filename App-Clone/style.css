@@ -1,0 +1,491 @@
+body,
+html {
+
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.first-section {
+    background-image: url('image/showcase.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.logo p:first-child span:first-child {
+    color: #02e2ec;
+
+    margin-right: -8px;
+
+}
+
+.logo p:first-child span:nth-child(2) {
+    margin-right: -8px;
+    color: orange;
+}
+
+.logo p:first-child span:nth-child(3) {
+    margin-right: -8px;
+    color: red;
+}
+
+.logo p:first-child span:nth-child(4) {
+    margin-right: -8px;
+    color: #B3E91D;
+}
+
+.logo p:first-child span:nth-child(5) {
+    color: rgb(255, 0, 221);
+    margin-bottom: -1rem !important;
+
+}
+
+.logo p:last-child {
+    color: white;
+}
+
+.logo p:last-child {
+    line-height: 2rem;
+}
+
+.menu {
+    border: solid white 0.2rem;
+    border-radius: 30rem;
+    font-weight: bold;
+    box-shadow: -2px 4px 53px -6px rgba(0, 0, 0, 0.75) !important;
+    height: 1%;
+
+}
+
+#nav-bar {
+    display: flex;
+    margin-bottom: 0rem;
+
+}
+
+.list {
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    margin: 0 5% 0 5%;
+}
+
+.btn-area {
+    height: 84%;
+
+}
+
+.btn-back {
+    background-color: white;
+    width: 63%;
+    border-radius: 18%;
+    padding: 5px;
+
+}
+
+.sign-btn {
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15%;
+    width: 100%;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.sign-btn:hover {
+    color: #b3e91d;
+    text-decoration: none;
+}
+
+
+
+.btn-div {
+    background-color: white;
+    border-radius: 20px;
+    width: 64%;
+    margin-left: 5%;
+    height: 90%;
+
+}
+
+.menu-btn {
+    border-radius: 15%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.title {
+    color: white;
+    font-size: 3rem;
+    margin-left: 60px;
+    font-size: 67px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3rem;
+    font-weight: 900;
+
+}
+
+.title-btn {
+    background: #ffb145;
+    border-radius: 3rem;
+    border: none;
+    height: 6rem;
+    width: 100%;
+    outline: none;
+    font-size: 65%;
+
+}
+
+.title-btn:hover {
+    background: #b3e91d;
+    text-decoration: none;
+    width: 100%;
+}
+
+.title-back {
+    background-color: white;
+    padding: 16px;
+    width: 45%;
+    border-radius: 6rem;
+
+}
+
+
+.text-area {
+    flex: 1;
+    font-weight: 900;
+    font-size: 4em;
+    color: #2255FF;
+    margin-left: 50px;
+
+}
+
+
+.img-area {
+    flex: 1;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.second-section {
+    background-color: #F4F4F4;
+    height: 60vh;
+}
+
+#txt-bold {
+    margin-top: 10%;
+    line-height: 1;
+}
+
+#txt-normal {
+    color: #2255FF;
+    font-size: 15px;
+    font-weight: 10;
+    line-height: 1;
+    margin-top: 10%;
+
+}
+
+.blank {
+    height: 60vh;
+    background: #D4D9F8;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+
+}
+
+.img {
+
+    height: 70vh;
+    background: white;
+    margin-top: -356px;
+    padding: 2%;
+    border-radius: 3%;
+}
+
+.smile-image {
+    background-image: url('image/story-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    border-radius: 3%;
+
+}
+
+#start-now {
+
+    margin-left: 20%;
+    margin-top: -5%;
+    background: #FFB044;
+    font-weight: 900;
+    color: white;
+    border: none;
+    padding: 3%;
+    border-radius: 2em;
+    width: 10rem;
+    border-bottom: red solid 2px;
+}
+
+.btn:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .12);
+}
+
+.card {
+    border: none;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #2255FF;
+}
+
+.my-cards {
+    margin-top: -12%;
+    border-radius: 10%;
+}
+
+.card:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .12);
+}
+
+.icon1 {
+    background-image: url('image/logo-1.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.35));
+    margin-top: -65px;
+
+}
+
+.icon2 {
+    background-image: url('image/logo-2.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.35));
+    margin-left: 8px;
+    margin-top: -120px;
+
+}
+
+.icon3 {
+    background-image: url('image/logo-3.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 120%;
+    width: 100%;
+    filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.35));
+    margin-top: -65px;
+    margin-left: 5%;
+}
+
+.orange-section {
+    margin-top: 2%;
+    height: 110vh;
+    background-image: url('image/bogoschool-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.school-left {
+    flex: 1;
+}
+
+.school-right {
+    flex: 1;
+}
+
+.learn-back {
+    background-color: white;
+    font-weight: 900;
+    color: white;
+    padding: 2%;
+    border-radius: 3rem;
+    width: 114%;
+
+}
+
+.watch-btn {
+    color: white;
+    background-color: #2255FF;
+    font-weight: 900;
+    border-radius: 3rem;
+    border: none;
+    height: 7rem;
+    width: 110%;
+    outline: none;
+    font-size: 65%;
+}
+
+.watch-btn:hover {
+    position: relative;
+    top: -3px;
+    text-shadow: #FFB044;
+}
+
+.round-back {
+    height: 40vh;
+    width: 22vw;
+    border-radius: 50%;
+    margin-top: -20%;
+    margin-left: -36px;
+    background-image: url('image/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 2px;
+    border: solid white 10px;
+}
+
+.logo-img {
+
+    height: 100%;
+    padding: 3%;
+}
+
+.rating {
+    color: gold;
+}
+
+.right-middle-card {
+    margin-left: 5%;
+
+}
+
+#name {
+    font-size: 50px;
+    color: #b3e91d;
+    font-weight: 900;
+}
+
+.middle-card {
+    border-radius: 15px !important;
+    -webkit-box-shadow: 2px 24px 20px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 24px 20px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 24px 20px -16px rgba(0, 0, 0, 0.75);
+}
+
+.last-section {
+    height: 25vh;
+    background-color: #2F5FFF;
+}
+
+.input-back {
+    height: 13vh;
+    border-radius: 40px;
+    -webkit-box-shadow: inset -1px -24px 83px -16px rgba(0, 0, 0, 0.92);
+    -moz-box-shadow: inset -1px -24px 83px -16px rgba(0, 0, 0, 0.92);
+    box-shadow: inset -1px -24px 83px -16px rgba(0, 0, 0, 0.92);
+    background: #2f5fff;
+}
+
+#stay {
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 2%;
+
+}
+
+#in {
+    padding: 16px;
+    width: 35vw;
+    margin: 10px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+}
+
+.email-btn {
+    color: white;
+    font-size: 80%;
+}
+
+.footer {
+    background-color: #2f5fff;
+    height: 10vh;
+    -webkit-box-shadow: inset -1px -24px 83px -16px rgba(0, 0, 0, 0.92);
+    -moz-box-shadow: inset -1px -24px 83px -16px rgba(0, 0, 0, 0.92);
+    box-shadow: inset -1px -24px 83px -16px rgba(0, 0, 0, 0.92);
+    background: #2f5fff;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
